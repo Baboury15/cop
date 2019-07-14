@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "daterangepicker": "^3.0.5",
+    "moment": "^2.24.0",
+    "raleway-webfont": "^3.0.1",
     "react": "^16.8.6",
+    "react-calendar": "^2.19.0",
+    "react-datepicker": "^2.7.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-time-picker": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
