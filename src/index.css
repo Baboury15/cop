@@ -18,6 +18,8 @@ code {
 }
 
 
+
+
 .flex-container{
 display: flex;
 flex-wrap: wrap;
@@ -35,9 +37,9 @@ font-family:'Raleway'
   width: 35%;
   margin-left: 15%;
   font-family: 'Raleway';
-  /* font-family: Georgia, 'Times New Roman', Times, serif; */
   
 }
+
 
 input[type='checkbox'] {
   -webkit-appearance:none;
@@ -51,6 +53,7 @@ input[type='checkbox'] {
 input[type='checkbox']:checked {
   background: #1d9deb;
   background-size: 1px;
+  
  
 }
 
@@ -60,6 +63,7 @@ input.checked-1{
   margin: 20px;
 
   }
+  
 
 .button{
 margin : 0 auto;
@@ -73,18 +77,21 @@ font-size: 15px;
 margin-left: 60%;
 color: black;
  }
+
  
  .calendar{
   margin-top:1px;
   margin-left: 5%;
   border-radius: 10px;
   margin-bottom: 2%;
-  width: 60vh;
-  font-family: 'Raleway';
-  box-shadow:34px;
-  
-  
- 
+  font-family: 'Raleway' !important;
+   
+}
+
+
+.react-calendar__tile--active{
+  border-radius: 50px;
+  background-color: #1d9deb;
 }
 
  .para-0{
